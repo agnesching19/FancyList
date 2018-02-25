@@ -32,13 +32,13 @@ The constructor should be flexible. It should allow:
 
 Eg:
 
-var myList1 = new FancyList();
+let myList1 = new FancyList();
 
-var myList2 = new FancyList(3);
+let myList2 = new FancyList(3);
 
-var myList3 = new FancyList(3, 4);
+let myList3 = new FancyList(3, 4);
 
-var myList4 = new FancyList([5, 6]);
+let myList4 = new FancyList([5, 6]);
 
 # Methods
 
