@@ -1,6 +1,6 @@
-'use strict';
+// 'use strict';
 
-var FancyList = function() {
+const FancyList = () => {
   this._checkValidArgs = function(array_src) {
     let array = array_src;
     let firstType = typeof array[0];
