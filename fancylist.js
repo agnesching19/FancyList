@@ -1,3 +1,5 @@
+"use strict";
+
 const FancyList = function() {
   this._checkValidArgs = function(array_src) {
     let array = array_src;
